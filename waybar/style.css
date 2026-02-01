@@ -127,7 +127,9 @@ button:hover {
 
 #clock {
     margin: 5px 4px;
-    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
     border-radius: 5px;
 }
 
@@ -202,9 +204,8 @@ label:focus {
 #network {
     margin: 5px 5px;
     padding: 5px 10px;
-    background-color: rgb(255, 255, 255);
-    color: #000000;
-    border-radius: 50%;
+    color: #ffffff;
+    border-radius: 5px;
 }
 
 #network.wifi.connected {
@@ -216,13 +217,11 @@ label:focus {
 
 #network.disconnected {
     color: #ff0000;
-    background-color: #ffffff;
 }
 
 #pulseaudio {
     margin: 5px 0;
     padding: 0 5px;
-    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     color: #ffffff;
 }
@@ -353,4 +352,11 @@ label:focus {
 
 #privacy-item.audio-out {
     background-color: #0069d4;
+}
+
+#custom-power {
+    margin: 2px 5px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
 }
